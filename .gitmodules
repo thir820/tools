@@ -1,0 +1,9 @@
+[submodule "embdgen"]
+	path = embdgen
+	url = tomirgang:Elektrobit/embdgen.git
+[submodule "ebcl_build_tools"]
+	path = ebcl_build_tools
+	url = tomirgang:Elektrobit/ebcl_build_tools.git
+[submodule "ebcl_vscode_tools"]
+	path = ebcl_vscode_tools
+	url = tomirgang:Elektrobit/ebcl_vscode_tools.git
