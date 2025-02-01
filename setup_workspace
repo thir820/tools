@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -e
+
+# Create a new .venv to work in
+python3 -m venv .venv
+. .venv/bin/activate
+
+pip install -e ebcl_build_tools/libapt/
+# pip install -e ebcl_build_tools/libyamlconf/
+pip install -e ebcl_build_tools/
+pip install -e embdgen/embdgen-core/
+pip install -e embdgen/embdgen-config-yaml/
+pip install -e embdgen/embdgen-cominit/
+pip install -e ebcl_vscode_tools/
+pip install -e apt_browser/
+
+for DEV_REQ in $(find . -name "dev-requirements.txt")
+do
+    pip install -r $DEV_REQ
+done
+

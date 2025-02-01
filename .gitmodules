@@ -7,3 +7,6 @@
 [submodule "ebcl_vscode_tools"]
 	path = ebcl_vscode_tools
 	url = tomirgang:Elektrobit/ebcl_vscode_tools.git
+[submodule "apt_browser"]
+	path = apt_browser
+	url = thir820:thir820/apt_browser.git
