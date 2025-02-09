@@ -10,3 +10,6 @@
 [submodule "apt_browser"]
 	path = apt_browser
 	url = thir820:thir820/apt_browser.git
+[submodule "libapt"]
+	path = libapt
+	url = thir820:thir820/libapt.git
